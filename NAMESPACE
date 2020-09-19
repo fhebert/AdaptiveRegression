@@ -1,0 +1,6 @@
+useDynLib(AdaptiveRegression)
+import(RcppEigen)
+importFrom(Rcpp, evalCpp)
+export("FitAdaptiveReg","PlotAdaptiveReg","PredictAdaptiveReg")
+importFrom("graphics", "abline", "par")
+importFrom("stats", "cor", "cov", "var")
